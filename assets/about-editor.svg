@@ -1,0 +1,147 @@
+<svg width="100%" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','Consolas',monospace">
+
+  <!-- Editor background -->
+  <rect x="0" y="0" width="900" height="360" rx="10" fill="#1e1e1e"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="900" height="40" rx="10" fill="#323233"/>
+  <rect x="0" y="30" width="900" height="10" fill="#323233"/>
+  <circle cx="24" cy="20" r="6" fill="#FF5F56"/>
+  <circle cx="46" cy="20" r="6" fill="#FFBD2E"/>
+  <circle cx="68" cy="20" r="6" fill="#27C93F"/>
+
+  <!-- File tab -->
+  <rect x="100" y="0" width="120" height="40" fill="#1e1e1e"/>
+  <rect x="100" y="0" width="120" height="2" fill="#00c6ff"/>
+  <text x="120" y="25" font-size="13" fill="#D4D4D4">about.yaml</text>
+
+  <!-- Code lines, revealed left-to-right in sequence -->
+
+  <!-- line 0: about: -->
+  <g clip-path="url(#clip0)">
+    <text x="30" y="76" font-size="16">
+      <tspan fill="#9CDCFE">about</tspan><tspan fill="#D4D4D4">:</tspan>
+    </text>
+  </g>
+  <clipPath id="clip0"><rect x="20" y="56" height="26" width="0">
+    <animate attributeName="width" values="0;110" dur="0.6s" begin="0.0s" fill="freeze"/>
+  </rect></clipPath>
+
+  <!-- line 1: role -->
+  <g clip-path="url(#clip1)">
+    <text x="30" y="104" font-size="16">
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">role</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"Software Engineer"</tspan>
+    </text>
+  </g>
+  <clipPath id="clip1"><rect x="20" y="84" height="26" width="0">
+    <animate attributeName="width" values="0;310" dur="0.6s" begin="0.75s" fill="freeze"/>
+  </rect></clipPath>
+
+  <!-- line 2: focus -->
+  <g clip-path="url(#clip2)">
+    <text x="30" y="132" font-size="16">
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">focus</tspan><tspan fill="#D4D4D4">: [</tspan><tspan fill="#4EC9B0">full-stack</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">distributed systems</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">ML</tspan><tspan fill="#D4D4D4">]</tspan>
+    </text>
+  </g>
+  <clipPath id="clip2"><rect x="20" y="112" height="26" width="0">
+    <animate attributeName="width" values="0;470" dur="0.6s" begin="1.5s" fill="freeze"/>
+  </rect></clipPath>
+
+  <!-- line 3: status -->
+  <g clip-path="url(#clip3)">
+    <text x="30" y="160" font-size="16">
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">status</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"open to opportunities"</tspan>
+    </text>
+  </g>
+  <clipPath id="clip3"><rect x="20" y="140" height="26" width="0">
+    <animate attributeName="width" values="0;370" dur="0.6s" begin="2.25s" fill="freeze"/>
+  </rect></clipPath>
+
+  <!-- line 4: stack: -->
+  <g clip-path="url(#clip4)">
+    <text x="30" y="188" font-size="16">
+      <tspan fill="#9CDCFE">stack</tspan><tspan fill="#D4D4D4">:</tspan>
+    </text>
+  </g>
+  <clipPath id="clip4"><rect x="20" y="168" height="26" width="0">
+    <animate attributeName="width" values="0;100" dur="0.6s" begin="3.0s" fill="freeze"/>
+  </rect></clipPath>
+
+  <!-- line 5: languages -->
+  <g clip-path="url(#clip5)">
+    <text x="30" y="216" font-size="16">
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">languages</tspan><tspan fill="#D4D4D4">: [</tspan><tspan fill="#4EC9B0">Python</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">TypeScript</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">Go</tspan><tspan fill="#D4D4D4">]</tspan>
+    </text>
+  </g>
+  <clipPath id="clip5"><rect x="20" y="196" height="26" width="0">
+    <animate attributeName="width" values="0;390" dur="0.6s" begin="3.75s" fill="freeze"/>
+  </rect></clipPath>
+
+  <!-- line 6: backend -->
+  <g clip-path="url(#clip6)">
+    <text x="30" y="244" font-size="16">
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">backend</tspan><tspan fill="#D4D4D4">: [</tspan><tspan fill="#4EC9B0">Node.js</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">PostgreSQL</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">Docker</tspan><tspan fill="#D4D4D4">]</tspan>
+    </text>
+  </g>
+  <clipPath id="clip6"><rect x="20" y="224" height="26" width="0">
+    <animate attributeName="width" values="0;410" dur="0.6s" begin="4.5s" fill="freeze"/>
+  </rect></clipPath>
+
+  <!-- line 7: contact: -->
+  <g clip-path="url(#clip7)">
+    <text x="30" y="272" font-size="16">
+      <tspan fill="#9CDCFE">contact</tspan><tspan fill="#D4D4D4">:</tspan>
+    </text>
+  </g>
+  <clipPath id="clip7"><rect x="20" y="252" height="26" width="0">
+    <animate attributeName="width" values="0;140" dur="0.6s" begin="5.25s" fill="freeze"/>
+  </rect></clipPath>
+
+  <!-- line 8: email -->
+  <g clip-path="url(#clip8)">
+    <text x="30" y="300" font-size="16">
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">email</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">your.email@example.com</tspan>
+    </text>
+  </g>
+  <clipPath id="clip8"><rect x="20" y="280" height="26" width="0">
+    <animate attributeName="width" values="0;330" dur="0.6s" begin="6.0s" fill="freeze"/>
+  </rect></clipPath>
+
+  <!-- line 9: linkedin -->
+  <g clip-path="url(#clip9)">
+    <text x="30" y="328" font-size="16">
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">linkedin</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">/in/aysar-alawwad</tspan>
+    </text>
+  </g>
+  <clipPath id="clip9"><rect x="20" y="308" height="26" width="0">
+    <animate attributeName="width" values="0;310" dur="0.6s" begin="6.75s" fill="freeze"/>
+  </rect></clipPath>
+
+  <!-- Blinking cursor: moves with each line's reveal, then blinks in place -->
+  <rect x="20" y="62" width="2" height="18" fill="#AEAFAD">
+    <animate attributeName="x" values="20;130"  dur="0.6s" begin="0.00s" fill="freeze"/>
+    <animate attributeName="x" values="20;330"  dur="0.6s" begin="0.75s" fill="freeze"/>
+    <animate attributeName="x" values="20;490"  dur="0.6s" begin="1.50s" fill="freeze"/>
+    <animate attributeName="x" values="20;390"  dur="0.6s" begin="2.25s" fill="freeze"/>
+    <animate attributeName="x" values="20;120"  dur="0.6s" begin="3.00s" fill="freeze"/>
+    <animate attributeName="x" values="20;410"  dur="0.6s" begin="3.75s" fill="freeze"/>
+    <animate attributeName="x" values="20;430"  dur="0.6s" begin="4.50s" fill="freeze"/>
+    <animate attributeName="x" values="20;160"  dur="0.6s" begin="5.25s" fill="freeze"/>
+    <animate attributeName="x" values="20;350"  dur="0.6s" begin="6.00s" fill="freeze"/>
+    <animate attributeName="x" values="20;330"  dur="0.6s" begin="6.75s" fill="freeze"/>
+
+    <set attributeName="y" to="62"  begin="0.00s" fill="freeze"/>
+    <set attributeName="y" to="90"  begin="0.75s" fill="freeze"/>
+    <set attributeName="y" to="118" begin="1.50s" fill="freeze"/>
+    <set attributeName="y" to="146" begin="2.25s" fill="freeze"/>
+    <set attributeName="y" to="174" begin="3.00s" fill="freeze"/>
+    <set attributeName="y" to="202" begin="3.75s" fill="freeze"/>
+    <set attributeName="y" to="230" begin="4.50s" fill="freeze"/>
+    <set attributeName="y" to="258" begin="5.25s" fill="freeze"/>
+    <set attributeName="y" to="286" begin="6.00s" fill="freeze"/>
+    <set attributeName="y" to="314" begin="6.75s" fill="freeze"/>
+
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>
