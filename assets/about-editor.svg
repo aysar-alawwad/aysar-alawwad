@@ -27,64 +27,64 @@
     <animate attributeName="width" values="0;110" dur="0.6s" begin="0.0s" fill="freeze"/>
   </rect></clipPath>
 
-  <!-- line 1: role -->
+  <!-- line 1: name -->
   <g clip-path="url(#clip1)">
     <text x="30" y="104" font-size="16">
-      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">role</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"Software Engineer"</tspan>
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">name</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"Aysar S. Alawwad"</tspan>
     </text>
   </g>
   <clipPath id="clip1"><rect x="20" y="84" height="26" width="0">
     <animate attributeName="width" values="0;310" dur="0.6s" begin="0.75s" fill="freeze"/>
   </rect></clipPath>
 
-  <!-- line 2: focus -->
+  <!-- line 2: role -->
   <g clip-path="url(#clip2)">
     <text x="30" y="132" font-size="16">
-      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">focus</tspan><tspan fill="#D4D4D4">: [</tspan><tspan fill="#4EC9B0">full-stack</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">distributed systems</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">ML</tspan><tspan fill="#D4D4D4">]</tspan>
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">role</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"Full-Stack Engineer"</tspan>
     </text>
   </g>
   <clipPath id="clip2"><rect x="20" y="112" height="26" width="0">
     <animate attributeName="width" values="0;470" dur="0.6s" begin="1.5s" fill="freeze"/>
   </rect></clipPath>
 
-  <!-- line 3: status -->
+  <!-- line 3: location -->
   <g clip-path="url(#clip3)">
     <text x="30" y="160" font-size="16">
-      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">status</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"open to opportunities"</tspan>
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">location</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"Amman,Jordan"</tspan>
     </text>
   </g>
   <clipPath id="clip3"><rect x="20" y="140" height="26" width="0">
     <animate attributeName="width" values="0;370" dur="0.6s" begin="2.25s" fill="freeze"/>
   </rect></clipPath>
 
-  <!-- line 4: stack: -->
+  <!-- line 4: education: -->
   <g clip-path="url(#clip4)">
     <text x="30" y="188" font-size="16">
-      <tspan fill="#9CDCFE">stack</tspan><tspan fill="#D4D4D4">:</tspan>
+      <tspan fill="#9CDCFE">education</tspan><tspan fill="#D4D4D4">:</tspan>
     </text>
   </g>
   <clipPath id="clip4"><rect x="20" y="168" height="26" width="0">
-    <animate attributeName="width" values="0;100" dur="0.6s" begin="3.0s" fill="freeze"/>
+    <animate attributeName="width" values="0;170" dur="0.6s" begin="3.0s" fill="freeze"/>
   </rect></clipPath>
 
-  <!-- line 5: languages -->
+  <!-- line 5: degree -->
   <g clip-path="url(#clip5)">
     <text x="30" y="216" font-size="16">
-      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">languages</tspan><tspan fill="#D4D4D4">: [</tspan><tspan fill="#4EC9B0">Python</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">TypeScript</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">Go</tspan><tspan fill="#D4D4D4">]</tspan>
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">degree</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"B.Sc. Computer Engineering"</tspan>
     </text>
   </g>
   <clipPath id="clip5"><rect x="20" y="196" height="26" width="0">
     <animate attributeName="width" values="0;390" dur="0.6s" begin="3.75s" fill="freeze"/>
   </rect></clipPath>
 
-  <!-- line 6: backend -->
+  <!-- line 6: university -->
   <g clip-path="url(#clip6)">
     <text x="30" y="244" font-size="16">
-      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">backend</tspan><tspan fill="#D4D4D4">: [</tspan><tspan fill="#4EC9B0">Node.js</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">PostgreSQL</tspan><tspan fill="#D4D4D4">, </tspan><tspan fill="#4EC9B0">Docker</tspan><tspan fill="#D4D4D4">]</tspan>
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">university</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"Mutah University"</tspan>
     </text>
   </g>
   <clipPath id="clip6"><rect x="20" y="224" height="26" width="0">
-    <animate attributeName="width" values="0;410" dur="0.6s" begin="4.5s" fill="freeze"/>
+    <animate attributeName="width" values="0;420" dur="0.6s" begin="4.5s" fill="freeze"/>
   </rect></clipPath>
 
   <!-- line 7: contact: -->
@@ -100,7 +100,7 @@
   <!-- line 8: email -->
   <g clip-path="url(#clip8)">
     <text x="30" y="300" font-size="16">
-      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">email</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">your.email@example.com</tspan>
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">linkedin</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">/in/aysar-alawwad</tspan>
     </text>
   </g>
   <clipPath id="clip8"><rect x="20" y="280" height="26" width="0">
@@ -123,9 +123,9 @@
     <animate attributeName="x" values="20;330"  dur="0.6s" begin="0.75s" fill="freeze"/>
     <animate attributeName="x" values="20;490"  dur="0.6s" begin="1.50s" fill="freeze"/>
     <animate attributeName="x" values="20;390"  dur="0.6s" begin="2.25s" fill="freeze"/>
-    <animate attributeName="x" values="20;120"  dur="0.6s" begin="3.00s" fill="freeze"/>
+    <animate attributeName="x" values="20;190"  dur="0.6s" begin="3.00s" fill="freeze"/>
     <animate attributeName="x" values="20;410"  dur="0.6s" begin="3.75s" fill="freeze"/>
-    <animate attributeName="x" values="20;430"  dur="0.6s" begin="4.50s" fill="freeze"/>
+    <animate attributeName="x" values="20;440"  dur="0.6s" begin="4.50s" fill="freeze"/>
     <animate attributeName="x" values="20;160"  dur="0.6s" begin="5.25s" fill="freeze"/>
     <animate attributeName="x" values="20;350"  dur="0.6s" begin="6.00s" fill="freeze"/>
     <animate attributeName="x" values="20;330"  dur="0.6s" begin="6.75s" fill="freeze"/>
