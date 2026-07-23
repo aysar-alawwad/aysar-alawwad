@@ -1,0 +1,26 @@
+<svg width="100%" viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg" font-family="'Inter','Segoe UI',sans-serif">
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0e13"/>
+      <stop offset="100%" stop-color="#10161d"/>
+    </linearGradient>
+    <linearGradient id="topLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#89CFF0" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#89CFF0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#89CFF0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="90" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="1.5" fill="url(#topLine)"/>
+
+  <!-- small accent mark -->
+  <rect x="585" y="30" width="30" height="2" rx="1" fill="#89CFF0" opacity="0.7"/>
+
+  <text x="600" y="58" font-size="14" text-anchor="middle">
+    <tspan fill="#EDF1F5" font-weight="600">Aysar S. Alawwad</tspan>
+    <tspan fill="#7C8798"> &#8226; &#169; 2026 &#8226; All rights reserved</tspan>
+  </text>
+
+</svg>
