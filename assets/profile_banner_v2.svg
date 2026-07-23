@@ -1,0 +1,151 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" font-family="'Inter','Segoe UI',sans-serif">
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E14"/>
+      <stop offset="100%" stop-color="#141B24"/>
+    </linearGradient>
+    <!-- Soft contained glows (subtle, not blobby) -->
+    <radialGradient id="glowCyan">
+      <stop offset="0%" stop-color="#4FD8C4" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#4FD8C4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowAmber">
+      <stop offset="0%" stop-color="#F2B155" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F2B155" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Blueprint dot grid -->
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#232B38"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#dots)" opacity="0.6"/>
+  <circle cx="230" cy="120" r="200" fill="url(#glowAmber)"/>
+  <circle cx="900" cy="140" r="260" fill="url(#glowCyan)"/>
+
+  <!-- Corner instrument brackets -->
+  <g stroke="#4FD8C4" stroke-width="2" fill="none" opacity="0.55">
+    <path d="M24,44 L24,24 L44,24"/>
+    <path d="M1156,24 L1176,24 L1176,44"/>
+    <path d="M24,276 L24,296 L44,296"/>
+    <path d="M1176,276 L1176,296 L1156,296"/>
+  </g>
+
+  <!-- Part-number stamp -->
+  <text x="1150" y="42" text-anchor="end" font-family="'JetBrains Mono','Fira Code',monospace"
+        font-size="12" letter-spacing="1" fill="#7C8798" opacity="0.85">P/N · ASA-2026</text>
+
+  <!-- Left vertical nameplate accent -->
+  <rect x="62" y="58" width="5" height="150" rx="2.5" fill="#4FD8C4"/>
+
+  <!-- Eyebrow -->
+  <text x="90" y="66" font-family="'JetBrains Mono','Fira Code',monospace" font-size="13"
+        letter-spacing="3" fill="#4FD8C4" opacity="0.9">SYSTEM PROFILE</text>
+
+  <!-- Name -->
+  <text x="90" y="112" font-size="44" font-weight="700" fill="#EDF1F5"
+        letter-spacing="0.5" filter="url(#softGlow)">Aysar S. Alawwad</text>
+
+  <!-- Role -->
+  <text x="90" y="144" font-size="20" font-weight="600" fill="#F2B155">Full-Stack Engineer</text>
+
+  <!-- Education -->
+  <text x="90" y="176" font-size="15" fill="#AEB6C2">
+    <tspan font-family="'JetBrains Mono','Fira Code',monospace" fill="#4FD8C4" font-weight="700">EDU</tspan>
+    <tspan>  B.Sc. Computer Science — University of Jordan</tspan>
+  </text>
+
+  <!-- Ruler / measurement rule -->
+  <g stroke="#232B38" stroke-width="1">
+    <line x1="90" y1="196" x2="470" y2="196"/>
+    <line x1="90" y1="192" x2="90" y2="200"/>
+    <line x1="130" y1="193" x2="130" y2="199"/>
+    <line x1="170" y1="193" x2="170" y2="199"/>
+    <line x1="210" y1="193" x2="210" y2="199"/>
+    <line x1="250" y1="193" x2="250" y2="199"/>
+    <line x1="290" y1="193" x2="290" y2="199"/>
+    <line x1="330" y1="193" x2="330" y2="199"/>
+    <line x1="370" y1="193" x2="370" y2="199"/>
+    <line x1="410" y1="193" x2="410" y2="199"/>
+    <line x1="450" y1="193" x2="450" y2="199"/>
+    <line x1="470" y1="192" x2="470" y2="200"/>
+  </g>
+
+  <!-- Icons -->
+  <g transform="translate(90 220)" stroke="#4FD8C4" stroke-width="2" fill="none">
+      <rect width="44" height="30" rx="5"/>
+      <path d="M9 9 L16 15 L9 21"/>
+      <line x1="21" y1="21" x2="33" y2="21"/>
+      <g transform="translate(64 -2)">
+          <rect width="30" height="30" rx="4"/>
+          <rect x="8" y="8" width="14" height="14"/>
+      </g>
+      <g transform="translate(126 -2)">
+          <path d="M10 22H30
+                   a7 7 0 0 0 0-14
+                   a10 10 0 0 0-20-2
+                   a6 6 0 0 0-1 16z"/>
+      </g>
+      <g transform="translate(196 -2)">
+          <path d="M15 2
+                   L29 7
+                   V16
+                   C29 25 24 31 15 35
+                   C6 31 1 25 1 16
+                   V7Z"/>
+      </g>
+  </g>
+
+  <!-- Skill chips -->
+  <g font-family="'JetBrains Mono','Fira Code',monospace" font-size="11" letter-spacing="0.5">
+    <rect x="410" y="222" width="58" height="24" rx="12" fill="none" stroke="#232B38"/>
+    <text x="439" y="238" text-anchor="middle" fill="#AEB6C2">PYTHON</text>
+    <rect x="478" y="222" width="46" height="24" rx="12" fill="none" stroke="#232B38"/>
+    <text x="501" y="238" text-anchor="middle" fill="#AEB6C2">TS</text>
+    <rect x="534" y="222" width="40" height="24" rx="12" fill="none" stroke="#232B38"/>
+    <text x="554" y="238" text-anchor="middle" fill="#AEB6C2">GO</text>
+    <rect x="584" y="222" width="58" height="24" rx="12" fill="none" stroke="#232B38"/>
+    <text x="613" y="238" text-anchor="middle" fill="#AEB6C2">DOCKER</text>
+  </g>
+
+  <!-- Signature element: request-flow pipeline across the stack -->
+  <text x="700" y="52" font-family="'JetBrains Mono','Fira Code',monospace" font-size="13"
+        letter-spacing="3" fill="#4FD8C4" opacity="0.9">REQUEST FLOW</text>
+
+  <path id="flowPath" d="M700,110 L750,110 L750,160 L800,160 L850,160 L850,100 L900,100 L950,100 L950,160 L1000,160 L1050,160 L1050,110 L1100,110"
+        fill="none" stroke="#232B38" stroke-width="2"/>
+
+  <g fill="#0A0E14" stroke="#4FD8C4" stroke-width="2">
+    <circle cx="700" cy="110" r="8"/>
+    <circle cx="800" cy="160" r="8"/>
+    <circle cx="900" cy="100" r="8"/>
+    <circle cx="1000" cy="160" r="8"/>
+    <circle cx="1100" cy="110" r="8"/>
+  </g>
+
+  <g font-family="'JetBrains Mono','Fira Code',monospace" font-size="12" letter-spacing="1"
+     fill="#7C8798" text-anchor="middle">
+    <text x="700" y="136">UI</text>
+    <text x="800" y="186">API</text>
+    <text x="900" y="80">DATA</text>
+    <text x="1000" y="186">CLOUD</text>
+    <text x="1100" y="136">SEC</text>
+  </g>
+
+  <!-- Animated data pulse traveling through the stack -->
+  <circle r="5" fill="#F2B155" filter="url(#softGlow)">
+    <animateMotion dur="4s" repeatCount="indefinite">
+      <mpath href="#flowPath"/>
+    </animateMotion>
+  </circle>
+</svg>
