@@ -111,7 +111,7 @@
   <!-- line 8: email -->
   <g clip-path="url(#clip8)">
     <text x="30" y="324" font-size="16">
-      <tspan fill="#7C8798">  </tspan><tspan fill="#89CFF0">email</tspan><tspan fill="#7C8798">: </tspan><tspan fill="#EDF1F5">"your.email@example.com"</tspan>
+      <tspan fill="#7C8798">  </tspan><tspan fill="#89CFF0">website</tspan><tspan fill="#7C8798">: </tspan><tspan fill="#EDF1F5">"www.aysaralawwad.com"</tspan>
     </text>
   </g>
   <clipPath id="clip8"><rect x="20" y="304" height="26" width="0">
