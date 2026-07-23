@@ -1,7 +1,7 @@
-<svg width="100%" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','Consolas',monospace">
+<svg width="100%" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','Consolas',monospace">
 
   <!-- Editor background -->
-  <rect x="0" y="0" width="900" height="360" rx="10" fill="#1e1e1e"/>
+  <rect x="0" y="0" width="900" height="400" rx="10" fill="#1e1e1e"/>
 
   <!-- Title bar -->
   <rect x="0" y="0" width="900" height="40" rx="10" fill="#323233"/>
@@ -15,7 +15,7 @@
   <rect x="100" y="0" width="120" height="2" fill="#00c6ff"/>
   <text x="120" y="25" font-size="13" fill="#D4D4D4">about.yaml</text>
 
-  <!-- Code lines, revealed left-to-right in sequence -->
+  <!-- ================= GROUP: about ================= -->
 
   <!-- line 0: about: -->
   <g clip-path="url(#clip0)">
@@ -24,7 +24,7 @@
     </text>
   </g>
   <clipPath id="clip0"><rect x="20" y="56" height="26" width="0">
-    <animate attributeName="width" values="0;110" dur="0.6s" begin="0.0s" fill="freeze"/>
+    <animate attributeName="width" values="0;110" dur="0.6s" begin="0.00s" fill="freeze"/>
   </rect></clipPath>
 
   <!-- line 1: name -->
@@ -44,104 +44,110 @@
     </text>
   </g>
   <clipPath id="clip2"><rect x="20" y="112" height="26" width="0">
-    <animate attributeName="width" values="0;470" dur="0.6s" begin="1.5s" fill="freeze"/>
+    <animate attributeName="width" values="0;300" dur="0.6s" begin="1.50s" fill="freeze"/>
   </rect></clipPath>
 
   <!-- line 3: location -->
   <g clip-path="url(#clip3)">
     <text x="30" y="160" font-size="16">
-      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">location</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"Amman,Jordan"</tspan>
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">location</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"Amman, Jordan"</tspan>
     </text>
   </g>
   <clipPath id="clip3"><rect x="20" y="140" height="26" width="0">
-    <animate attributeName="width" values="0;370" dur="0.6s" begin="2.25s" fill="freeze"/>
+    <animate attributeName="width" values="0;290" dur="0.6s" begin="2.25s" fill="freeze"/>
   </rect></clipPath>
+
+  <!-- ================= GROUP: education (extra gap above) ================= -->
 
   <!-- line 4: education: -->
   <g clip-path="url(#clip4)">
-    <text x="30" y="188" font-size="16">
+    <text x="30" y="200" font-size="16">
       <tspan fill="#9CDCFE">education</tspan><tspan fill="#D4D4D4">:</tspan>
     </text>
   </g>
-  <clipPath id="clip4"><rect x="20" y="168" height="26" width="0">
-    <animate attributeName="width" values="0;170" dur="0.6s" begin="3.0s" fill="freeze"/>
+  <clipPath id="clip4"><rect x="20" y="180" height="26" width="0">
+    <animate attributeName="width" values="0;150" dur="0.6s" begin="3.00s" fill="freeze"/>
   </rect></clipPath>
 
   <!-- line 5: degree -->
   <g clip-path="url(#clip5)">
-    <text x="30" y="216" font-size="16">
+    <text x="30" y="228" font-size="16">
       <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">degree</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"B.Sc. Computer Engineering"</tspan>
     </text>
   </g>
-  <clipPath id="clip5"><rect x="20" y="196" height="26" width="0">
-    <animate attributeName="width" values="0;390" dur="0.6s" begin="3.75s" fill="freeze"/>
+  <clipPath id="clip5"><rect x="20" y="208" height="26" width="0">
+    <animate attributeName="width" values="0;400" dur="0.6s" begin="3.75s" fill="freeze"/>
   </rect></clipPath>
 
   <!-- line 6: university -->
   <g clip-path="url(#clip6)">
-    <text x="30" y="244" font-size="16">
+    <text x="30" y="256" font-size="16">
       <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">university</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"Mutah University"</tspan>
     </text>
   </g>
-  <clipPath id="clip6"><rect x="20" y="224" height="26" width="0">
-    <animate attributeName="width" values="0;420" dur="0.6s" begin="4.5s" fill="freeze"/>
+  <clipPath id="clip6"><rect x="20" y="236" height="26" width="0">
+    <animate attributeName="width" values="0;340" dur="0.6s" begin="4.50s" fill="freeze"/>
   </rect></clipPath>
+
+  <!-- ================= GROUP: contact (extra gap above) ================= -->
 
   <!-- line 7: contact: -->
   <g clip-path="url(#clip7)">
-    <text x="30" y="272" font-size="16">
+    <text x="30" y="296" font-size="16">
       <tspan fill="#9CDCFE">contact</tspan><tspan fill="#D4D4D4">:</tspan>
     </text>
   </g>
-  <clipPath id="clip7"><rect x="20" y="252" height="26" width="0">
-    <animate attributeName="width" values="0;140" dur="0.6s" begin="5.25s" fill="freeze"/>
+  <clipPath id="clip7"><rect x="20" y="276" height="26" width="0">
+    <animate attributeName="width" values="0;110" dur="0.6s" begin="5.25s" fill="freeze"/>
   </rect></clipPath>
 
   <!-- line 8: email -->
   <g clip-path="url(#clip8)">
-    <text x="30" y="300" font-size="16">
-      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">linkedin</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">/in/aysar-alawwad</tspan>
+    <text x="30" y="324" font-size="16">
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">email</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"your.email@example.com"</tspan>
     </text>
   </g>
-  <clipPath id="clip8"><rect x="20" y="280" height="26" width="0">
-    <animate attributeName="width" values="0;330" dur="0.6s" begin="6.0s" fill="freeze"/>
+  <clipPath id="clip8"><rect x="20" y="304" height="26" width="0">
+    <animate attributeName="width" values="0;350" dur="0.6s" begin="6.00s" fill="freeze"/>
   </rect></clipPath>
 
   <!-- line 9: linkedin -->
   <g clip-path="url(#clip9)">
-    <text x="30" y="328" font-size="16">
-      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">linkedin</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">/in/aysar-alawwad</tspan>
+    <text x="30" y="352" font-size="16">
+      <tspan fill="#D4D4D4">  </tspan><tspan fill="#9CDCFE">linkedin</tspan><tspan fill="#D4D4D4">: </tspan><tspan fill="#CE9178">"/in/aysar-alawwad"</tspan>
     </text>
   </g>
-  <clipPath id="clip9"><rect x="20" y="308" height="26" width="0">
-    <animate attributeName="width" values="0;310" dur="0.6s" begin="6.75s" fill="freeze"/>
+  <clipPath id="clip9"><rect x="20" y="332" height="26" width="0">
+    <animate attributeName="width" values="0;330" dur="0.6s" begin="6.75s" fill="freeze"/>
   </rect></clipPath>
 
-  <!-- Blinking cursor: moves with each line's reveal, then blinks in place -->
+  <!-- ================= Cursor: tracks exactly to each line's text end, solid while typing, blinks once idle ================= -->
   <rect x="20" y="62" width="2" height="18" fill="#AEAFAD">
-    <animate attributeName="x" values="20;130"  dur="0.6s" begin="0.00s" fill="freeze"/>
-    <animate attributeName="x" values="20;330"  dur="0.6s" begin="0.75s" fill="freeze"/>
-    <animate attributeName="x" values="20;490"  dur="0.6s" begin="1.50s" fill="freeze"/>
-    <animate attributeName="x" values="20;390"  dur="0.6s" begin="2.25s" fill="freeze"/>
-    <animate attributeName="x" values="20;190"  dur="0.6s" begin="3.00s" fill="freeze"/>
-    <animate attributeName="x" values="20;410"  dur="0.6s" begin="3.75s" fill="freeze"/>
-    <animate attributeName="x" values="20;440"  dur="0.6s" begin="4.50s" fill="freeze"/>
-    <animate attributeName="x" values="20;160"  dur="0.6s" begin="5.25s" fill="freeze"/>
-    <animate attributeName="x" values="20;350"  dur="0.6s" begin="6.00s" fill="freeze"/>
-    <animate attributeName="x" values="20;330"  dur="0.6s" begin="6.75s" fill="freeze"/>
+    <animate attributeName="x" values="20;130" dur="0.6s" begin="0.00s" fill="freeze"/>
+    <animate attributeName="x" values="20;330" dur="0.6s" begin="0.75s" fill="freeze"/>
+    <animate attributeName="x" values="20;320" dur="0.6s" begin="1.50s" fill="freeze"/>
+    <animate attributeName="x" values="20;310" dur="0.6s" begin="2.25s" fill="freeze"/>
+    <animate attributeName="x" values="20;170" dur="0.6s" begin="3.00s" fill="freeze"/>
+    <animate attributeName="x" values="20;420" dur="0.6s" begin="3.75s" fill="freeze"/>
+    <animate attributeName="x" values="20;360" dur="0.6s" begin="4.50s" fill="freeze"/>
+    <animate attributeName="x" values="20;130" dur="0.6s" begin="5.25s" fill="freeze"/>
+    <animate attributeName="x" values="20;370" dur="0.6s" begin="6.00s" fill="freeze"/>
+    <animate attributeName="x" values="20;350" dur="0.6s" begin="6.75s" fill="freeze"/>
 
     <set attributeName="y" to="62"  begin="0.00s" fill="freeze"/>
     <set attributeName="y" to="90"  begin="0.75s" fill="freeze"/>
     <set attributeName="y" to="118" begin="1.50s" fill="freeze"/>
     <set attributeName="y" to="146" begin="2.25s" fill="freeze"/>
-    <set attributeName="y" to="174" begin="3.00s" fill="freeze"/>
-    <set attributeName="y" to="202" begin="3.75s" fill="freeze"/>
-    <set attributeName="y" to="230" begin="4.50s" fill="freeze"/>
-    <set attributeName="y" to="258" begin="5.25s" fill="freeze"/>
-    <set attributeName="y" to="286" begin="6.00s" fill="freeze"/>
-    <set attributeName="y" to="314" begin="6.75s" fill="freeze"/>
+    <set attributeName="y" to="186" begin="3.00s" fill="freeze"/>
+    <set attributeName="y" to="214" begin="3.75s" fill="freeze"/>
+    <set attributeName="y" to="242" begin="4.50s" fill="freeze"/>
+    <set attributeName="y" to="282" begin="5.25s" fill="freeze"/>
+    <set attributeName="y" to="310" begin="6.00s" fill="freeze"/>
+    <set attributeName="y" to="338" begin="6.75s" fill="freeze"/>
 
-    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1s" begin="0s" repeatCount="indefinite"/>
+    <!-- solid while actively typing (0s to 7.35s), then blinks once idle -->
+    <animate attributeName="opacity" from="1" to="1" dur="7.35s" begin="0s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1s" begin="7.35s" repeatCount="indefinite"/>
   </rect>
 
 </svg>
