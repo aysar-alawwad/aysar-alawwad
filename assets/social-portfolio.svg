@@ -1,0 +1,16 @@
+<svg width="140" height="170" viewBox="0 0 140 170" xmlns="http://www.w3.org/2000/svg" font-family="'Inter','Segoe UI',sans-serif">
+  <defs>
+    <radialGradient id="shade" cx="50%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#151b23"/>
+      <stop offset="100%" stop-color="#0e131a"/>
+    </radialGradient>
+  </defs>
+  <circle cx="70" cy="62" r="48" fill="url(#shade)" stroke="#89CFF0" stroke-opacity="0.35" stroke-width="1.5"/>
+  <!-- globe / website glyph -->
+  <circle cx="70" cy="62" r="18" fill="none" stroke="#89CFF0" stroke-width="2.2"/>
+  <ellipse cx="70" cy="62" rx="7" ry="18" fill="none" stroke="#89CFF0" stroke-width="2"/>
+  <line x1="52" y1="62" x2="88" y2="62" stroke="#89CFF0" stroke-width="2"/>
+  <path d="M55,50 Q70,58 85,50" fill="none" stroke="#89CFF0" stroke-width="2"/>
+  <path d="M55,74 Q70,66 85,74" fill="none" stroke="#89CFF0" stroke-width="2"/>
+  <text x="70" y="140" font-size="13" font-weight="500" fill="#C7CDD6" text-anchor="middle">Portfolio</text>
+</svg>
